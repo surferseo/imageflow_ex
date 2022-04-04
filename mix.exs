@@ -1,7 +1,7 @@
 defmodule Imageflow.MixProject do
   use Mix.Project
 
-  @version "0.4.1"
+  @version "0.5.1"
 
   def project do
     [
@@ -24,7 +24,7 @@ defmodule Imageflow.MixProject do
 
   defp deps do
     [
-      {:rustler, "~> 0.21.1"},
+      {:rustler, "~> 0.22.2"},
       {:jason, "~> 1.2"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
